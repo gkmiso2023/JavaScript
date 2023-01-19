@@ -10,4 +10,4 @@ function getType(anything) {
     } else {
       return typeof anything;
     }
-  }
+}
