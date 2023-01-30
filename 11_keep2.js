@@ -7,8 +7,8 @@
 //keeper와 일치하는 요소가 없는 경우, 빈 배열을 리턴
 function keep(arr, keeper) {
     if (arr === []) {
-      return []
+      return [];
     }
     let result = arr.filter(word => word === keeper)
-    return result
+    return result;
 }
