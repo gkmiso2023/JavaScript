@@ -3,7 +3,6 @@
 //입력받은 배열은 함수의 호출 뒤에도 처음 상태를 유지해야 합니다(immutability)
 //빈 배열 또는 빈 문자열을 입력받은 경우, false를 리턴
 function unpackGiftbox(giftBox, wish) {
-    // recursive case
     for (let gift of giftBox) {
         // base case -> 내가 찾는 선물이 있을때 true
         if (gift === wish) {
